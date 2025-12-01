@@ -1,0 +1,44 @@
+# Binários
+*.exe
+*.dll
+*.so
+*.dylib
+shortfyurl
+
+# Go
+*.test
+*.out
+go.work
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependências
+vendor/
+
+# Docker volumes
+cassandra-data/
+redis-data/
+
+# Env
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Arquivos temporários
+tmp/
+temp/

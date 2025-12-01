@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShortfyURL - Encurtador de Links</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ShortfyURL</h1>
+            <p>Encurte seus links de forma rápida e simples</p>
+            <a href="pages/admin.html" class="admin-link">Admin</a>
+        </header>
+
+        <main>
+            <div class="form-container">
+                <input type="url" id="urlInput" placeholder="Cole sua URL aqui..." required>
+                <button id="shortenBtn">Encurtar</button>
+            </div>
+
+            <div id="result" class="result hidden">
+                <div class="result-content">
+                    <h3>✅ Link criado com sucesso!</h3>
+                    <div class="short-url">
+                        <a id="shortUrlLink" href="#" target="_blank" class="short-url-link"></a>
+                        <button id="copyBtn">Copiar</button>
+                    </div>
+                    <a id="statsLink" href="#" target="_blank">Ver estatísticas</a>
+                </div>
+            </div>
+
+            <div id="error" class="error hidden"></div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

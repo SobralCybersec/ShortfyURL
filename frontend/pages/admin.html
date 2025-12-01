@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - ShortfyURL</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Painel</h1>
+            <p>Visualize todas as URLs encurtadas</p>
+            <a href="/" class="admin-link">← Voltar</a>
+        </header>
+
+        <main>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3 id="totalUrls">0</h3>
+                    <p>Total de URLs</p>
+                </div>
+                <div class="stat-card">
+                    <h3 id="totalClicks">0</h3>
+                    <p>Total de Cliques</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="urlsTable">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>URL Original</th>
+                            <th>Cliques</th>
+                            <th>Criado em</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="urlsTableBody">
+                        <tr>
+                            <td colspan="5" class="loading">Carregando...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>
