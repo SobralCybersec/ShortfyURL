@@ -62,7 +62,4 @@ curl http://localhost:8080/api/stats/{shortCode}
 
 ```bash
 docker-compose down
-
-# Remover volumes (dados)
-docker-compose down -v
 ```
