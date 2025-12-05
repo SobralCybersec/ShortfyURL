@@ -5,8 +5,8 @@
 ## Stack Utilizadas
 
 - Cassandra (Banco de Dados)
-- Go (Cache)
-- Redis (Back-end)
+- Go (Cache/Back-end)
+- Redis (Cache/Back-end)
 - HTML/CSS/Javascript (Front-End)
 
 ## Pré-requisitos
