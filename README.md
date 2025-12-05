@@ -1,6 +1,13 @@
 # ShortfyURL - Encurtador de Links Simples
 
-Encurtador de URLs em Go com Cassandra, Redis e codificação Base62.
+<img src="https://i.imgur.com/BXNpiKQ.png" width="800">
+
+## Stack Utilizadas
+
+- Cassandra (Banco de Dados)
+- Go (Cache)
+- Redis (Back-end)
+- HTML/CSS/Javascript (Front-End)
 
 ## Pré-requisitos
 
@@ -37,25 +44,6 @@ bash init-cassandra.sh
 cd backend
 go mod download
 go run .
-```
-
-## Endpoints
-
-### Criar URL curta
-```bash
-curl -X POST http://localhost:8080/api/shorten \
-  -H "Content-Type: application/json" \
-  -d '{"url": "https://exemplo.com/url-muito-longa"}'
-```
-
-### Redirecionar
-```bash
-curl http://localhost:8080/{shortCode}
-```
-
-### Estatísticas
-```bash
-curl http://localhost:8080/api/stats/{shortCode}
 ```
 
 ## Parar os serviços

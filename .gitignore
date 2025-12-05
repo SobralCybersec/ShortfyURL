@@ -26,6 +26,7 @@ Thumbs.db
 
 # Dependências
 vendor/
+.excalidraw.png
 
 # Docker volumes
 cassandra-data/
