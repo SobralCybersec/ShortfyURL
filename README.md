@@ -50,7 +50,4 @@ go run .
 
 ```bash
 docker-compose down
-
-# Remover volumes (dados)
-docker-compose down -v
 ```
